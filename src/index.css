@@ -1,0 +1,7 @@
+@import url('./assets/fonts/Circe/stylesheet.css');
+@import url('./assets/fonts/Courier/stylesheet.css');
+@import url('./assets/fonts/HalvarBreitschrift/stylesheet.css');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;

@@ -1,0 +1,30 @@
+@font-face {
+    font-family: 'Circe';
+    font-weight: 100;
+    src: url('./circe-thin.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Circe';
+    font-weight: 200;
+    src: url('./circe-extralight.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Circe';
+    font-weight: 300;
+    src: url('./circe-light.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Circe';
+    font-weight: normal;
+    src: url('./circe.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Circe';
+    font-weight: bold;
+    src: url('./circe-bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: 'Circe';
+    font-weight: 800;
+    src: url('./circe-extrabold.ttf') format('truetype');
+}

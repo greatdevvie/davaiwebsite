@@ -1,0 +1,64 @@
+@font-face {
+    font-family: "HalvarBreitschrift";
+    font-weight: 100;
+    src: url('./HalvarBreit-XTh.ttf') format('truetype');
+}
+@font-face {
+    font-family: "HalvarBreitschrift";
+    font-weight: 200;
+    src: url('./HalvarBreit-Th.ttf') format('truetype');
+}
+@font-face {
+    font-family: "HalvarBreitschrift";
+    font-weight: 300;
+    src: url('./HalvarBreit-Lt.ttf') format('truetype');
+}
+@font-face {
+    font-family: "HalvarBreitschrift";
+    font-weight: 300;
+    font-style: italic;
+    src: url('./HalvarBreit-LtSlanted.ttf') format('truetype');
+}
+@font-face {
+    font-family: "HalvarBreitschrift";
+    font-weight: 400;
+    src: url('./HalvarBreit-Rg.ttf') format('truetype');
+}
+@font-face {
+    font-family: "HalvarBreitschrift";
+    font-weight: 400;
+    font-style: italic;
+    src: url('./HalvarBreit-RgSlanted.ttf') format('truetype');
+}
+@font-face {
+    font-family: "HalvarBreitschrift";
+    font-weight: 500;
+    src: url('./HalvarBreit-Md.ttf') format('truetype');
+}
+@font-face {
+    font-family: "HalvarBreitschrift";
+    font-weight: 500;
+    font-style: italic;
+    src: url('./HalvarBreit-MdSlanted.ttf') format('truetype');
+}
+@font-face {
+    font-family: "HalvarBreitschrift";
+    font-weight: 700;
+    src: url('./HalvarBreit-Bd.ttf') format('truetype');
+}
+@font-face {
+    font-family: "HalvarBreitschrift";
+    font-weight: 800;
+    src: url('./HalvarBreit-XBd.ttf') format('truetype');
+}
+@font-face {
+    font-family: "HalvarBreitschrift";
+    font-weight: 800;
+    font-style: italic;
+    src: url('./HalvarBreit-XBdSlanted.ttf') format('truetype');
+}
+@font-face {
+    font-family: "HalvarBreitschrift";
+    font-weight: 900;
+    src: url('./HalvarBreit-Blk.ttf') format('truetype');
+}
