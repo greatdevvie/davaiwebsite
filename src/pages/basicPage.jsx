@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { Logo } from '../assets/media/Logos';
 
-export default function StartPageBasic() {
+export default function StartPageBasic(props) {
     const [isActive, setIsActive] = useState({
         ru: true,
         en: false
@@ -22,7 +22,9 @@ export default function StartPageBasic() {
     return (
         <div className="w-[100vw] h-[100vh]">
         <div className='flex flex-col w-full h-full justify-center items-center'>
-            <Logo />
+            <div className="cursor-pointer" onClick={() => {props.setSizeInit(0.5)}}>
+                <Logo/>
+            </div>
         </div>
         <div className="flex w-full font-halvar select-none text-xl font-bold absolute bottom-16 justify-center">
             <span className={`cursor-pointer transition-opacity ${isActive.ru ? 'opacity-25' : ''}`} onClick={() => {handleClick('ru')}}>RU</span>

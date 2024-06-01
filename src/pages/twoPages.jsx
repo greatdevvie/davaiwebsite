@@ -2,8 +2,7 @@ import { useEffect, useState } from 'react';
 import AdultSection from './sides/adult';
 import ChildrenSection from './sides/children';
 
-export default function TwoPages() {
-    const [sizeInit, setSizeInit] = useState(1);
+export default function TwoPages(props) {
     const [isClicked, setIsClicked] = useState('');
     let width = {
         left: 1,
@@ -13,16 +12,16 @@ export default function TwoPages() {
         function handleScroll(e) {
             const math = Math.max(-1, Math.min(1, e.deltaY));
             const step = 0.1;
-            const vol = Math.max(0, Math.min(1, sizeInit - math * step));
+            const vol = Math.max(0, Math.min(1, props.sizeInit - math * step));
             if (vol >= 0.5) {
-                setSizeInit(vol)
+                props.setSizeInit(vol)
             }
         }
         window.addEventListener('wheel', handleScroll)
         return () => {
             window.removeEventListener('wheel', handleScroll)
         }
-    })
+    }, [props])
     switch (isClicked) {
         case 'right': {
             width.left = 1;
@@ -35,8 +34,8 @@ export default function TwoPages() {
             break;
         }
         default: {
-            width.right = sizeInit;
-            width.left = sizeInit;
+            width.right = props.sizeInit;
+            width.left = props.sizeInit;
         }
     }
     document.childNodes[1].style.overflowX = "hidden";
