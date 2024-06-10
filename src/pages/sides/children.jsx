@@ -1,4 +1,6 @@
 import { LogoChildren } from '../../assets/media/Logos';
+import preCover from '../../assets/media/pre-cover.jpg';
+
 
 export default function ChildrenSection(props) {
     return (
@@ -8,6 +10,13 @@ export default function ChildrenSection(props) {
                     <LogoChildren />
                 </div>
             </div>
+            {props.isClicked ?             
+                <div>
+                    <div className='w-full object-cover h-full'>
+                        <img className='w-full' src={preCover} alt="" />
+                    </div>
+                </div>
+            : <></>}
         </div>
     )
 }

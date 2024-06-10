@@ -1,22 +1,39 @@
 @font-face {
     font-family: "Courier";
     font-weight: 400;
-    src: url('./CourierPrime-Regular.ttf') format('truetype');
+    src: url('./couriercyrps.ttf') format('truetype');
 }
 @font-face {
     font-family: "Courier";
     font-weight: normal;
     font-style: italic;
-    src: url('./CourierPrime-Italic.ttf') format('truetype');
+    src: url('./couriercyrps_inclined.ttf') format('truetype');
 }
 @font-face {
     font-family: "Courier";
     font-weight: bold;
-    src: url('./CourierPrime-Bold.ttf') format('truetype');
+    src: url('./couriercyrps_bold.ttf') format('truetype');
 }
 @font-face {
     font-family: "Courier";
     font-weight: bold;
     font-style: italic;
-    src: url('./CourierPrime-BoldItalic.ttf') format('truetype');
+    src: url('./couriercyrps_boldinclined.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Courier New";
+    font-weight: normal;
+    font-style: italic;
+    src: url('./courier-new.otf') format('opentype');
+}
+@font-face {
+    font-family: "Courier New Cyr";
+    font-weight: normal;
+    src: url('./courier-new-cyr.otf') format('opentype');
+}
+@font-face {
+    font-family: "Courier New";
+    font-weight: bold;
+    src: url('./courier-new-bold.otf') format('opentype');
 }

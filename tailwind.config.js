@@ -13,7 +13,10 @@ export default {
     extend: {
       fontFamily: {
         'circe': ['Circe', 'sans-serif'],
-        'halvar': ['HalvarBreitschrift', 'sans-serif']
+        'halvar': ['HalvarBreitschrift', 'sans-serif'],
+        'courier': ['Courier', 'sans-serif'],
+        'couriernew': ['Courier New', 'sans-serif'],
+        'couriernewcyr': ['Courier New Cyr', 'sans-serif']
       },
     },
   },
