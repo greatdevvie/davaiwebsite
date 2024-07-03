@@ -22,7 +22,7 @@ export default function StartPageBasic(props) {
     return (
         <div className="w-[100vw] h-[100vh]">
         <div className='flex flex-col w-full h-full justify-center items-center'>
-            <div className="cursor-pointer" onClick={() => {props.setSizeInit(0.5)}}>
+            <div className="cursor-pointer w-60" onClick={() => {props.setSizeInit(0.5)}}>
                 <Logo/>
             </div>
         </div>
